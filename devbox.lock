@@ -1,0 +1,361 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "biber-for-tectonic@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#biber-for-tectonic",
+      "source": "devbox-search",
+      "version": "2.17",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wxhiz6wk3ydgnhn0r3clc12rxdpvm4j2-perl5.42.0-biber-2.17",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/78kfdw4dv07vcpfq6gcinz79jnbrkfy4-perl5.42.0-biber-2.17-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/wxhiz6wk3ydgnhn0r3clc12rxdpvm4j2-perl5.42.0-biber-2.17"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/22syjwkm3dya0ad2xkylzg1n0bwsq6c4-perl5.42.0-biber-2.17",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/kmknrb8xhf7csrcghv7qg11yzyi7yn0n-perl5.42.0-biber-2.17-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/22syjwkm3dya0ad2xkylzg1n0bwsq6c4-perl5.42.0-biber-2.17"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nw4ys7js2z3x9s9p48y1n3qqff6kchrj-perl5.42.0-biber-2.17",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/fpj96mhskbwfdas5ip0cawfcl75gyx5j-perl5.42.0-biber-2.17-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/nw4ys7js2z3x9s9p48y1n3qqff6kchrj-perl5.42.0-biber-2.17"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ff3m92nsd89rasip0jkyg16z92wrfxls-perl5.42.0-biber-2.17",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/2gk5jki4p2zzl3528i3ry6lf9lldq63r-perl5.42.0-biber-2.17-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/ff3m92nsd89rasip0jkyg16z92wrfxls-perl5.42.0-biber-2.17"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-04-28T17:03:49Z",
+      "resolved": "github:NixOS/nixpkgs/e75f25705c2934955ee5075e62530d74aca973c6?lastModified=1777395829&narHash=sha256-HposVFZcsBCevgqLR73w%2FBpSe8J1lMgw5kASnnxO3A4%3D"
+    },
+    "tectonic@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#tectonic",
+      "source": "devbox-search",
+      "version": "0.16.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nfl73pvwrsx9kilpjy07l4as7wjlcnqn-tectonic-wrapped-0.16.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nfl73pvwrsx9kilpjy07l4as7wjlcnqn-tectonic-wrapped-0.16.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0f5d06yzcgzh4g3aj2d6yz7mx8mfd9rf-tectonic-wrapped-0.16.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0f5d06yzcgzh4g3aj2d6yz7mx8mfd9rf-tectonic-wrapped-0.16.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nkw45rx1wbnqa881y5r4w76cy1sjhd0x-tectonic-wrapped-0.16.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nkw45rx1wbnqa881y5r4w76cy1sjhd0x-tectonic-wrapped-0.16.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lgnk630lkfbn2kkxh5kakdj3bfzj2lww-tectonic-wrapped-0.16.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lgnk630lkfbn2kkxh5kakdj3bfzj2lww-tectonic-wrapped-0.16.9"
+        }
+      }
+    },
+    "tex-fmt@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#tex-fmt",
+      "source": "devbox-search",
+      "version": "0.5.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dqncwvbkf3x4rck7chfvwrh8sn74vx36-tex-fmt-0.5.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dqncwvbkf3x4rck7chfvwrh8sn74vx36-tex-fmt-0.5.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ahjk2rwajf22aphq2w589kn4k06q0z3r-tex-fmt-0.5.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ahjk2rwajf22aphq2w589kn4k06q0z3r-tex-fmt-0.5.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/38hphz8qp06zbfx5yjph3n2h29visw9n-tex-fmt-0.5.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/38hphz8qp06zbfx5yjph3n2h29visw9n-tex-fmt-0.5.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b1hbbirj68x8rn8i9nqc26l7nhdizxqj-tex-fmt-0.5.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b1hbbirj68x8rn8i9nqc26l7nhdizxqj-tex-fmt-0.5.7"
+        }
+      }
+    },
+    "texlivePackages.chktex@latest": {
+      "last_modified": "2026-04-27T06:11:55Z",
+      "resolved": "github:NixOS/nixpkgs/6368eda62c9775c38ef7f714b2555a741c20c72d#texlivePackages.chktex",
+      "source": "devbox-search",
+      "version": "1.7.10",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3gzdnx59k7kqnbsgg0kdsqz9h5ra08il-chktex-1.7.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/6midvdipbq79bcz4jn16anm4jj7hf1nc-chktex-1.7.10-man"
+            },
+            {
+              "name": "tex",
+              "path": "/nix/store/h4frb8bsddgb8slm42xips1v408k1ffx-chktex-1.7.10-tex"
+            },
+            {
+              "name": "texdoc",
+              "path": "/nix/store/pcr7p3kzgp4p9r1p6yf1halzmm6812xv-chktex-1.7.10-texdoc"
+            }
+          ],
+          "store_path": "/nix/store/3gzdnx59k7kqnbsgg0kdsqz9h5ra08il-chktex-1.7.10"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/swb43jzw84mhsb1pykmvcvm9jnhi8px3-chktex-1.7.10",
+              "default": true
+            },
+            {
+              "name": "tex",
+              "path": "/nix/store/p0rjvch6z8k4wf5927rrqmbkfzgvfkcx-chktex-1.7.10-tex"
+            },
+            {
+              "name": "texdoc",
+              "path": "/nix/store/7w10ndk9d9ychhr1xlargbpychimr4v7-chktex-1.7.10-texdoc"
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/7r0wbhcga31sz4iz5yb2jri2dza2d0gm-chktex-1.7.10-man"
+            }
+          ],
+          "store_path": "/nix/store/swb43jzw84mhsb1pykmvcvm9jnhi8px3-chktex-1.7.10"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x091wm9zkxxi7wa66jbw7svvdpqfhdzg-chktex-1.7.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/b4vq20d1gm67d8zgbvbql1gan2n9gdl4-chktex-1.7.10-man"
+            },
+            {
+              "name": "tex",
+              "path": "/nix/store/hxsi07flf56nsm9jj78pi5irmvp980dq-chktex-1.7.10-tex"
+            },
+            {
+              "name": "texdoc",
+              "path": "/nix/store/92aw5y6ccl86p4svwj5nqy7i94bfqvy0-chktex-1.7.10-texdoc"
+            }
+          ],
+          "store_path": "/nix/store/x091wm9zkxxi7wa66jbw7svvdpqfhdzg-chktex-1.7.10"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mbp4dfl0c8h1rl1ximk8948yv330240f-chktex-1.7.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/jl9hm8lzdx087pxwx6jpk7chpzx3hbsf-chktex-1.7.10-man"
+            },
+            {
+              "name": "tex",
+              "path": "/nix/store/y15vy7k7704q10vbn72zbcwykjv7c60l-chktex-1.7.10-tex"
+            },
+            {
+              "name": "texdoc",
+              "path": "/nix/store/v155x33d8ps9h4d61jkmzqcs5kx1q9x0-chktex-1.7.10-texdoc"
+            }
+          ],
+          "store_path": "/nix/store/mbp4dfl0c8h1rl1ximk8948yv330240f-chktex-1.7.10"
+        }
+      }
+    },
+    "timg@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#timg",
+      "source": "devbox-search",
+      "version": "1.6.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3xgr883bqngy7qv1nh7hmja8jgyjd571-timg-1.6.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3xgr883bqngy7qv1nh7hmja8jgyjd571-timg-1.6.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/maay04d8yc8yr2sjz8zda0fkc5g4qmkh-timg-1.6.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/maay04d8yc8yr2sjz8zda0fkc5g4qmkh-timg-1.6.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d0skgwj92axx4fhfv5ls71czpibljd3f-timg-1.6.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d0skgwj92axx4fhfv5ls71czpibljd3f-timg-1.6.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mnff1wqg14ypsbn8c3c2p6f9h17ahrjh-timg-1.6.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mnff1wqg14ypsbn8c3c2p6f9h17ahrjh-timg-1.6.3"
+        }
+      }
+    },
+    "yazi@latest": {
+      "last_modified": "2026-04-27T06:11:55Z",
+      "resolved": "github:NixOS/nixpkgs/6368eda62c9775c38ef7f714b2555a741c20c72d#yazi",
+      "source": "devbox-search",
+      "version": "26.1.22",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2499pwjkzhxs5bnw3w6xc726wbd2a3mf-yazi-26.1.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2499pwjkzhxs5bnw3w6xc726wbd2a3mf-yazi-26.1.22"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zn0amlwxgrpjx9cciniqxm4pbaz35dby-yazi-26.1.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zn0amlwxgrpjx9cciniqxm4pbaz35dby-yazi-26.1.22"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bjwhkx3r2h9j8bsi9bcx9ki3xw6lryk7-yazi-26.1.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bjwhkx3r2h9j8bsi9bcx9ki3xw6lryk7-yazi-26.1.22"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5b49v521i35nx4qicl83qv8ymzljkqdg-yazi-26.1.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5b49v521i35nx4qicl83qv8ymzljkqdg-yazi-26.1.22"
+        }
+      }
+    }
+  }
+}

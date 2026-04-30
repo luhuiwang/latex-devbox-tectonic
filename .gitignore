@@ -1,0 +1,18 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+
+# PDF output (optional, uncomment if you don't want to track PDFs)
+# *.pdf
+
+# devbox
+/.devbox/

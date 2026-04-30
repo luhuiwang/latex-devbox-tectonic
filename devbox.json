@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
+  "packages": [
+    "tectonic@latest",
+    "biber-for-tectonic@latest",
+    "tex-fmt@latest",
+    "texlivePackages.chktex@latest",
+    "yazi@latest",
+    "timg@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'LaTeX Environment (devbox + tectonic) is ready!' > /dev/null"
+    ],
+    "scripts": {
+      "build": "tectonic main.tex",
+      "fmt": "tex-fmt main.tex",
+      "lint": "chktex -wall -n22 -n30 -e16 main.tex"
+    }
+  }
+}
