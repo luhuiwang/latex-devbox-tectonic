@@ -7,9 +7,9 @@
       "args": [
         "run",
         "tectonic",
-        "--synctex",
-        "--keep-logs",
-        "--keep-intermediates",
+        // "--synctex",
+        // "--keep-logs",
+        // "--keep-intermediates",
         "%DOC_EXT%"
       ]
     }
