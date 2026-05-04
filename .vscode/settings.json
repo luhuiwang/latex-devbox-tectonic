@@ -49,7 +49,7 @@
     "-e16",
     "%DOC%"
   ],
-  "latex-workshop.latex.clean.extension": [
+  "latex-workshop.latex.clean.fileTypes": [
     ".glo",
     ".xdy",
     ".aux",
