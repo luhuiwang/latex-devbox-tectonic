@@ -1,12 +1,11 @@
 {
-  // 1. 配置 Tectonic 编译工具
   "latex-workshop.latex.tools": [
     {
       "name": "tectonic",
-      "command": "devbox",
+      "command": "tectonic",
       "args": [
-        "run",
-        "tectonic",
+        "-X",
+        "compile",
         // "--synctex",
         // "--keep-logs",
         // "--keep-intermediates",
@@ -25,45 +24,13 @@
   "latex-workshop.latex.magic.args.enabled": "false",
   "latex-workshop.latex.magic.program.enabled": "false",
   "latex-workshop.latex.recipe.default": "tectonic",
-  // 指定使用 tex-fmt 作为 LaTeX 格式化工具
   "latex-workshop.formatting.latex": "tex-fmt",
-  // 配置 tex-fmt 的可执行路径，通过 devbox 运行
-  "latex-workshop.formatting.tex-fmt.path": "devbox",
-  // 配置运行参数
-  // 注意：LaTeX Workshop 默认会自动添加 --stdin 参数
-  "latex-workshop.formatting.tex-fmt.args": [
-    "run",
-    "tex-fmt"
-  ],
-  // 启用 chktex 检查
   "latex-workshop.linting.chktex.enabled": true,
-  // 将可执行路径指向 devbox
-  "latex-workshop.linting.chktex.exec.path": "devbox",
-  // %DOC% 是 LaTeX Workshop 的占位符，代表当前文件名
   "latex-workshop.linting.chktex.exec.args": [
-    "run",
-    "chktex",
     "-wall",
     "-n22",
     "-n30",
     "-e16",
     "%DOC%"
-  ],
-  "latex-workshop.latex.clean.fileTypes": [
-    ".glo",
-    ".xdy",
-    ".aux",
-    ".bbl",
-    ".blg",
-    ".idx",
-    ".ind",
-    ".lof",
-    ".lot",
-    ".out",
-    ".toc",
-    ".snm",
-    ".nav"
-  ],
-  // 设置为编译失败也尝试清理
-  "latex-workshop.latex.autoClean.run": "onBuilt"
+  ]
 }
