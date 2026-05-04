@@ -22,8 +22,8 @@
       ]
     }
   ],
-  "latex-workshop.latex.magic.args.enabled":"false",
-  "latex-workshop.latex.magic.program.enabled":"false",
+  "latex-workshop.latex.magic.args.enabled": "false",
+  "latex-workshop.latex.magic.program.enabled": "false",
   "latex-workshop.latex.recipe.default": "tectonic",
   // 指定使用 tex-fmt 作为 LaTeX 格式化工具
   "latex-workshop.formatting.latex": "tex-fmt",
@@ -48,5 +48,22 @@
     "-n30",
     "-e16",
     "%DOC%"
-  ]
+  ],
+  "latex-workshop.latex.clean.extension": [
+    ".glo",
+    ".xdy",
+    ".aux",
+    ".bbl",
+    ".blg",
+    ".idx",
+    ".ind",
+    ".lof",
+    ".lot",
+    ".out",
+    ".toc",
+    ".snm",
+    ".nav"
+  ],
+  // 设置为编译失败也尝试清理
+  "latex-workshop.latex.autoClean.run": "onBuilt"
 }
