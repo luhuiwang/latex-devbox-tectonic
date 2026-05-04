@@ -22,6 +22,8 @@
       ]
     }
   ],
+  "latex-workshop.latex.magic.args.enabled":"false",
+  "latex-workshop.latex.magic.program.enabled":"false",
   "latex-workshop.latex.recipe.default": "tectonic",
   // 指定使用 tex-fmt 作为 LaTeX 格式化工具
   "latex-workshop.formatting.latex": "tex-fmt",
